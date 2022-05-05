@@ -3,54 +3,96 @@
 body {
     margin:0;
     background-color: antiquewhite;
+    background-image: url("paper.png");
+    background-repeat: repeat;
+
+    font-family: "Times New Roman", serif;
+}
+
+#body-container {
+    width: 75%;
+    margin: auto;
 }
 
 header {
     position: relative;
-    background-color: rgb(70, 58, 43);
     height: auto;
+    width: 100%;
+    padding: 1.5em 0;
+    /*background-color: rgb(0,0,0,.25);*/
+    
+    color:black;
+}
+
+header h2 {
+    position:relative;
+    
+    margin:0;
+
+    font-family: "Whisper", serif;
+    
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+header h2 span.header-text {
+    padding: 0 20px;
+}
+
+header h4{
+    font-family: serif;
+    font-size:1.1em;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: transparent;
+    border-top: 8px double rgb(250, 235, 215, .7);
+    border-bottom: 8px double rgb(250, 235, 215, .7);
+    position: relative;
+    margin: 1.25em auto;
+    padding: .2em 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-align: center;
     width: 100%;
 }
 
-header p {
-    position:relative;
-    padding: .5em 2em;
-    margin:0;
-
-    color:antiquewhite;
-    font-family: serif;
+.nav-link{
+    display: inline-block;
+    
+}
+.nav-link a {
+    color: black;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: antiquewhite;
     font-style: italic;
-    vertical-align: center;
-    font-size: 1.75em;
-    letter-spacing: 2px;
 }
 
-hr { 
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    border: none;
-    border-top: 10px double antiquewhite;
-}
 
-header p::after {
-    position: absolute;
-    right: 0;
+
+
+
+#content {
+    background: rgb(250, 235, 215, .5);
     
+    padding: 1.25em;
 }
 
-nav {
-    background-color: white;
-    
+
+footer {
     position: relative;
+    width: 100%;
+    border-top: 8px double rgb(250, 235, 215, .7);
+    margin: 1.5em auto;
     
-}
-
-
-.body-container {
-    margin: 1em 2em;
-}
-
-section { 
-    position: relative;
+    padding: 1.5em 0;
 }
