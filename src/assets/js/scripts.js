@@ -1,3 +1,5 @@
+// SLIDESHOW
+
 pics = new Array("assets/images/pizza.jpg",  "assets/images/pasta.jpg", "assets/images/wine.jpg") 
 count = 0; picCount = pics.length;
 
@@ -32,3 +34,8 @@ function ppic() {
 }
 
 
+// COUPONS
+
+function printCoupons() {
+    print();
+}

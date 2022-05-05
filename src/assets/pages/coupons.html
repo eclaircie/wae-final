@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>L & L Pizzeria | Chicago, Illinois</title>
+  <title>Coupons | L & L Pizzeria | Chicago, Illinois</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -23,31 +23,22 @@
 <body>
   <div id="body-container">
   <header>
-    <h2><span class="header-text">L & L</span><span class="header-text">Pizzeria</span></h2>
+    <h2><span class="header-text">L & L </span><span class="header-text">Pizzeria</span></h2>
     <h4>"The best pizza in Chicago!"</h4>
     <nav>
-      <div class="nav-link"><a routerLink="/">Home</a></div>
-      <div class="nav-link"><a routerLink="src/assets/pages/menu.html">Menu</a></div>
-      <div class="nav-link"><a routerLink="src/assets/pages/coupons.html">Coupons</a></div>
+        <div class="nav-link"><a routerLink="/">Home</a></div>
+        <div class="nav-link"><a routerLink="/menu.html">Menu</a></div>
+        <div class="nav-link"><a href="/coupons.html">Coupons</a></div>
     </nav>
   </header>
 
 
   <div id="content">
-    <div id="slideshow">
-      <center><img id="food" src="assets/images/pizza.jpg" ></center>
-      <div class="arrows">
-        <div onclick="ppic()">&#8592;</div>
-        <div onclick="npic()">&#8594;</div>
-      </div>
-    </div>
+    <p>Here, you can find our currently offered coupons. You can print them by clicking the print button below.</p>
 
-    <div id="home-content">
-      <div id="home-intro">
-        <p>Welcome to L & L Pizzeria! Located in downtown Chicago, Illinois, we offer a wide variety of Italian foods, including pizza, pasta dishes, and even wine!</p>
-        <p>Click on the link above to view our menu, or click the arrows above to browse images.</p>
-      </div>
-      <img src="assets/images/postcard.jpg">
+    <div id="coupons">
+
+        <input type="button" onclick="print()" value="Print"></input>
     </div>
   </div>
 

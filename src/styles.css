@@ -91,12 +91,14 @@ nav {
 }
 
 #home-content {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    margin: 2em 0;
+
 }
 
 #slideshow img#food {
     position:relative;
-    width: 50%;
+    width: 75%;
     height:auto;
     margin: auto;
 }
@@ -111,9 +113,15 @@ text-align: center;
     font-size: 2em;
 }
 
-
+#home-content #home-intro {
+    width: 48%;
+    display: inline-block;
+    padding: .5em;
+}
 #home-content img {
-    width: 40%;
+    width: 48%;
+    display: inline-block;
+    vertical-align:top;
 }
 
 /* FOOTER */
@@ -131,13 +139,19 @@ footer {
     width: 48%;
     display: block;
     float: left;
+    padding: 0 1em;
 }
 .footer-right {
     width: 48%;
     display: block;
     float: right;
+    padding: 0 1em;
 }
 
+h6 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
 
 
 /* MEDIA QUERIES */
