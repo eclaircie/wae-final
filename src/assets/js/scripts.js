@@ -1,46 +1,43 @@
 // SLIDESHOW
 
-pics = new Array("assets/images/pizza.jpg",  "assets/images/pasta.jpg", "assets/images/wine.jpg") 
-count = 0; 
-picCount = pics.length;
+gallery = new Array("assets/images/pizza.jpg",  "assets/images/pasta.jpg", "assets/images/wine.jpg");
 
-function npic() {
+imgTotal = gallery.length;
+
+count = 0;
+
+function galleryNext() {
     count++;
 
-    if(count < picCount) {
-        document.getElementById("food").src = pics[count]
+    if(count < imgTotal) {
+        document.getElementById("slideshow-img").src = gallery[count];
     }
     else {
         count = 0
-        document.getElementById("food") = pics[count]
-    }
-
-}
-
-function ppic() {
-    count--;
-
-    if(count > -1) {
-        document.getElementById("food").src = pics[count]
-    }
-    else {
-        count = picCount - 1;
-        document.getElementById("food").src = pics[count]
+        document.getElementById("slideshow-img").src = gallery[count]
     }
 }
+
+function galleryPrevious() {
+     count--;
+
+     if(count > -1) {
+         document.getElementById("slideshow-img").src = gallery[count]
+     }
+     else {
+         count = imgTotal - 1;
+         document.getElementById("slideshow-img").src = gallery[count]
+     }
+}
+
 
 
 // COUPONS
 
 function printCoupons() {
-
-    var divContents = document.getElementById("coupons").innerHTML;
-    var a = window.open();
-    //a.document.write('divContents');
-    //win.print();
-    a.document.write('<html><body>');
-    a.document.write(divContents);
-    a.document.write('</body></html>');
-    a.document.close();
-    a.print();
+    var content = document.getElementById("coupons").innerHTML;
+    var win = window.open();
+    win.document.write('<html><body>', content, '</body></html>');
+    win.document.close();
+    win.print();
 }
