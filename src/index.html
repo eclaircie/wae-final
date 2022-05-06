@@ -6,74 +6,10 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet"> 
-
-  <!-- js -->
-  <script src="/assets/js/scripts.js"></script>
-  
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 
 <body>
-  <div id="body-container">
-  <header>
-    <h2><span class="header-text">L & L</span><span class="header-text">Pizzeria</span></h2>
-    <h4>"The best pizza in Chicago!"</h4>
-    <nav>
-      <div class="nav-link"><a href="/">Home</a></div>
-      <div class="nav-link"><a href="src/assets/pages/menu.html">Menu</a></div>
-      <div class="nav-link"><a href="src/assets/pages/coupons.html">Coupons</a></div>
-    </nav>
-  </header>
-
-
-  <div id="content">
-    <div id="slideshow">
-      <center><img id="food" src="assets/images/pizza.jpg" ></center>
-      <div class="arrows">
-        <div onclick="ppic()">&#8592;</div>
-        <div onclick="npic()">&#8594;</div>
-      </div>
-    </div>
-
-    <div id="home-content">
-      <div id="home-intro">
-        <p>Welcome to L & L Pizzeria! Located in downtown Chicago, Illinois, we offer a wide variety of Italian foods, including pizza, pasta dishes, and even wine!</p>
-        <p>Click on the link above to view our menu, or click the arrows above to browse images.</p>
-      </div>
-      <img src="assets/images/postcard.jpg">
-    </div>
-  </div>
-
-
-  <div id="home-content">
-    <app-menu-item></app-menu-item>
-  </div>
-
-
-  <footer>
-    <div class="footer-left">
-      <h6>Hours</h6>
-      <p>Monday: Closed<br>
-        Tues. - Fri.: 12:00 am - 11:00 pm<br>
-        Saturday: 10:00 am - 12:00 pm<br>
-        Sunday: 1:00 pm - 10:00 pm</p>
-    </div>
-    <div class="footer-right">
-      <h6>Address</h6>
-      <p>121 E. Main Street<br>
-      Chicago, Illinois<br>
-      60626<br>
-      (Tel) 610-909-0927</p>
-    </div>
-    
-  </footer>
-  </div>
+  <app-root></app-root>
 </body>
 </html>

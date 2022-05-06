@@ -1,0 +1,162 @@
+body {
+    margin:0;
+    background-color: antiquewhite;
+    background-image: url("../assets/images/paper.png");
+    background-repeat: repeat;
+
+    font-family: "Times New Roman", serif;
+}
+
+#body-container {
+    width: 75%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 1.5em 0;
+    
+    color:black;
+}
+
+header h2 {
+    position:relative;
+    margin:0;
+
+    font-family: "Whisper", serif;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+header h2 span.header-text {
+    padding: 0 20px;
+}
+
+header h4{
+    font-family: serif;
+    font-size:1.1em;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+
+/* NAV BAR */
+
+nav {
+    background-color: transparent;
+    border-top: 8px double rgb(250, 235, 215, .7);
+    border-bottom: 8px double rgb(250, 235, 215, .7);
+    position: relative;
+    margin: 1.25em auto;
+    padding: .2em 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link{
+    display: inline-block;
+    
+}
+.nav-link a {
+    color: black;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: antiquewhite;
+    font-style: italic;
+}
+
+
+
+/* BODY */
+
+#content {
+    position: relative;
+    background: rgb(250, 235, 215, .5);
+    padding: 1.25em;
+}
+
+#home-content {
+    font-size: 1.1em;
+    margin: 2em 0;
+
+}
+
+#slideshow img#food {
+    position:relative;
+    width: 75%;
+    height:auto;
+    margin: auto;
+}
+
+#slideshow .arrows {
+text-align: center;
+}
+
+.arrows div {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 2em;
+}
+
+#home-content #home-intro {
+    width: 48%;
+    display: inline-block;
+    padding: .5em;
+}
+#home-content img {
+    width: 48%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-top: 8px double rgb(250, 235, 215, .7);
+    margin: 2.5em auto;
+    
+    padding: 1.25em 0 7em 0;
+}
+
+.footer-left {
+    width: 48%;
+    display: block;
+    float: left;
+    padding: 0 1em;
+}
+.footer-right {
+    width: 48%;
+    display: block;
+    float: right;
+    padding: 0 1em;
+}
+
+h6 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    #body-container {
+      width:100%;
+    }
+  }
