@@ -1,1 +1,10 @@
-<p>coupon works!</p>
+<h3>Coupons</h3>
+
+<p style="margin-left: 2em;">Below are coupons for our current offers. Click the button to print them!</p>
+<input type="button" value="Click to print" onclick="printCoupons()">
+
+<div class="block" *ngFor="let coupon of coupons">
+    <h6>{{coupon.name}}</h6>
+    <p class="desc">{{coupon.desc}}</p>
+    <p class="note">{{coupon.note}}</p>
+</div>

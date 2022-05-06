@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {coupons} from ''
+import {coupons} from '../data/coupons';
 
 @Component({
   selector: 'app-coupon',

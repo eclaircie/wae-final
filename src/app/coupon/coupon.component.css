@@ -1,0 +1,35 @@
+p {
+    font-size: 1.1em;
+}
+.block { 
+    display: block;
+    position: relative;
+    padding: 1em;
+    width: 20em;
+    margin: 2em;
+
+    border: brown dashed 2px;
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1.3em;
+}
+
+.note {
+    font-size: .8em;
+    font-style: italic;
+}
+
+input {
+    background-color: antiquewhite; 
+    border: 1px solid brown;
+    color: black;
+    padding: .5em .75em;
+    margin: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    font-style: italic;
+  }

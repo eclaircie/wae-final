@@ -33,5 +33,14 @@ function ppic() {
 // COUPONS
 
 function printCoupons() {
-    print();
+
+    var divContents = document.getElementById("coupons").innerHTML;
+    var a = window.open();
+    //a.document.write('divContents');
+    //win.print();
+    a.document.write('<html><body>');
+    a.document.write(divContents);
+    a.document.write('</body></html>');
+    a.document.close();
+    a.print();
 }
