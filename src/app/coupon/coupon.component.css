@@ -1,10 +1,11 @@
 p {
     font-size: 1.1em;
 }
+
 .block { 
     display: block;
     position: relative;
-    padding: 1em;
+    padding: .8em;
     width: 20em;
     margin: 2em;
 
@@ -13,7 +14,7 @@ p {
 }
 
 h6 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .note {
