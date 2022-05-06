@@ -2,15 +2,15 @@
   <header>
     <h2><span class="header-text">L & L</span><span class="header-text">Pizzeria</span></h2>
     <h4>"The best pizza in Chicago!"</h4>
-    <nav>
-      <div class="nav-link"><a href="/">Home</a></div>
-      <div class="nav-link"><a href="src/assets/pages/menu.html">Menu</a></div>
-      <div class="nav-link"><a href="src/assets/pages/coupons.html">Coupons</a></div>
+    <nav class="mr-auto">
+      <div class="nav-link"><a href="#home">Home</a></div>
+      <div class="nav-link"><a href="#menu">Menu</a></div>
+      <div class="nav-link"><a href="#coupons">Coupons</a></div>
     </nav>
   </header>
 
 
-  <div id="content">
+  <div class="content" id="home">
     <div id="slideshow">
       <img id="food" src="assets/images/pizza.jpg" align="center">
       <div class="arrows">
@@ -26,16 +26,16 @@
       </div>
       <img src="assets/images/postcard.jpg">
     </div>
-
-    <app-menu-item></app-menu-item>
-
   </div>
 
+  <div class="content" id="menu">
+    <app-menu-item></app-menu-item>
+  </div>
 
+  <div class="content" id="coupons">
+    <app-coupon></app-coupon>
+  </div>
   
-    
-  
-
 
   <footer>
     <div class="footer-left">

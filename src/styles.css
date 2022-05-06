@@ -82,10 +82,17 @@ nav {
 
 /* BODY */
 
-#content {
+h3 {
+    font-size: 2.75em;
+    font-family: "Whisper", serif;
+    color:brown;
+}
+
+.content {
     position: relative;
     background: rgb(250, 235, 215, .5);
     padding: 1.25em;
+    margin-bottom: 3em;
 }
 
 #home-content {

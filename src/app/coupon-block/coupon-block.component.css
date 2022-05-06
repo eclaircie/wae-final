@@ -1,0 +1,6 @@
+.block { 
+    display: block;
+    position: relative;
+    padding: 2em;
+    border: brown dashed 2px;
+}
